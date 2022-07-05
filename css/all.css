@@ -11956,4 +11956,13 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.logo {
+  display: block;
+  background-image: url(/images/logo.png);
+  text-indent: 101%;
+  overflow: hidden;
+  width: 118px;
+  height: 40px;
+}
 /*# sourceMappingURL=all.css.map */
