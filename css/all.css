@@ -8658,6 +8658,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -11958,5 +11962,12 @@ fieldset:disabled .btn {
   overflow: hidden;
   width: 118px;
   height: 40px;
+}
+
+.pet-painting {
+  width: 176px;
+  height: 38px;
+  background-color: #F9C745;
+  border-radius: 23px;
 }
 /*# sourceMappingURL=all.css.map */
