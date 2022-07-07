@@ -1,11 +1,8 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
+@import "../stylesheets/helpers/variables";
 
 // Include any default variable overrides here (though functions won't be available)
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-
-@import "../stylesheets/helpers/layout";
-@import "../stylesheets/helpers/variables"
