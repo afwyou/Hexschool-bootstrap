@@ -12000,4 +12000,9 @@ fieldset:disabled .btn {
   font-size: 16px;
   font-weight: lighter;
 }
+
+img {
+  max-width: 1440px;
+  height: auto;
+}
 /*# sourceMappingURL=all.css.map */
