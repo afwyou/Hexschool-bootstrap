@@ -1,3 +1,5 @@
+@import "./rwd";
+
 .logo {
   display: block;
   background-image: url(/images/logo.png);
@@ -14,10 +16,15 @@
   border-radius: 23px;
 }
 .contact{
-  // width: 30%;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
   .btn {
     width: 176px;
     height: 44px;
+  }
+  @include mobile {
+    flex-wrap: nowrap;
   }
 }
 .copyright{
