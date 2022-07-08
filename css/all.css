@@ -11971,9 +11971,25 @@ fieldset:disabled .btn {
   border-radius: 23px;
 }
 
+.contact {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
 .contact .btn {
   width: 176px;
   height: 44px;
+}
+
+@media (min-width: 568px) {
+  .contact {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 .copyright {
