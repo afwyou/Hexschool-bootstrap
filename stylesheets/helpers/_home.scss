@@ -8,8 +8,15 @@ img {
 
   }
 }
-.banner {
-  width: 900px;
-  height: auto;
-  background-image: url(/images/home.png);
+.banner{
+    background-image: url(/images/home_mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 634.28px;
+    @include mobile { 
+        background-image: url(/images/home.png);
+        height: 810px;
+        background-size: contain;
+        // background-position: center center;
+    }
 }

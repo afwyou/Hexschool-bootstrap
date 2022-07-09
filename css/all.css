@@ -12002,8 +12002,17 @@ fieldset:disabled .btn {
 }
 
 .banner {
-  width: 900px;
-  height: auto;
-  background-image: url(/images/home.png);
+  background-image: url(/images/home_mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 634.28px;
+}
+
+@media (min-width: 568px) {
+  .banner {
+    background-image: url(/images/home.png);
+    height: 810px;
+    background-size: contain;
+  }
 }
 /*# sourceMappingURL=all.css.map */
