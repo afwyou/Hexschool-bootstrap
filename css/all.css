@@ -12001,8 +12001,9 @@ fieldset:disabled .btn {
   font-weight: lighter;
 }
 
-img {
-  max-width: 1440px;
+.banner {
+  width: 900px;
   height: auto;
+  background-image: url(/images/home.png);
 }
 /*# sourceMappingURL=all.css.map */
