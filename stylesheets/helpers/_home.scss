@@ -1,5 +1,5 @@
 @import "./rwd";
-
+$width: 100vw;
 
 img {
   // max-width: 1440px;
@@ -11,25 +11,29 @@ img {
 .banner{
     background-image: url(/images/home_mobile.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 634.28px;
+    background-size: contain;
+    background-position: center center;
+       height: 634.28px;
     position: relative;
     @include mobile { 
         background-image: url(/images/home.png);
-        height: 810px;
+        height: $width * 0.56;
+        width: $width;
         background-size: contain;
-        // background-position: center center;
+        background-position: center center;
     }
     .banner-title{
-      // display: none;//不用有這條指令
+      display: none;//不用有這條指令
       @include mobile {
+        display: block;
         font-weight: bold;
         font-style: italic;
         color: white;
         font-family: 'Kalam', cursive; 
-        text-align: center;
+        // text-align: center;
         position: absolute;
         top: 50%;
+        left:50%
       }
     }
 }
