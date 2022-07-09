@@ -12027,7 +12027,9 @@ fieldset:disabled .btn {
 @media (min-width: 568px) {
   .banner .banner-title {
     display: block;
-    font-weight: bold;
+    font-weight: 900;
+    color: #848975 !important;
+    -webkit-text-stroke: 2px #fff;
     font-style: italic;
     color: white;
     font-family: 'Kalam', cursive;
