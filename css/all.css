@@ -12006,6 +12006,7 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 634.28px;
+  position: relative;
 }
 
 @media (min-width: 568px) {
@@ -12013,6 +12014,18 @@ fieldset:disabled .btn {
     background-image: url(/images/home.png);
     height: 810px;
     background-size: contain;
+  }
+}
+
+@media (min-width: 568px) {
+  .banner .banner-title {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
   }
 }
 /*# sourceMappingURL=all.css.map */

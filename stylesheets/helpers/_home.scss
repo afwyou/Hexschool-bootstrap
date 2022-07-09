@@ -13,10 +13,23 @@ img {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 634.28px;
+    position: relative;
     @include mobile { 
         background-image: url(/images/home.png);
         height: 810px;
         background-size: contain;
         // background-position: center center;
+    }
+    .banner-title{
+      // display: none;//不用有這條指令
+      @include mobile {
+        font-weight: bold;
+        font-style: italic;
+        color: white;
+        font-family: 'Kalam', cursive; 
+        text-align: center;
+        position: absolute;
+        top: 50%;
+      }
     }
 }
