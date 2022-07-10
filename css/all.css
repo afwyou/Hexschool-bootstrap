@@ -12040,4 +12040,25 @@ fieldset:disabled .btn {
             transform: translate(-50%, -50%);
   }
 }
+
+.service ul {
+  margin-left: 48px;
+}
+
+.service .img {
+  width: 648px;
+  height: 486px;
+}
+
+.service h4, .service .h4 {
+  font-family: 'Kalam', cursive;
+  color: #F9C745;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1.28px;
+  color: #3A3A3A;
+}
 /*# sourceMappingURL=all.css.map */
