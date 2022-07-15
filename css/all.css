@@ -9904,6 +9904,10 @@ fieldset:disabled .btn {
   border-radius: 0.3rem !important;
 }
 
+.rounded-4 {
+  border-radius: 1.2rem !important;
+}
+
 .rounded-circle {
   border-radius: 50% !important;
 }
