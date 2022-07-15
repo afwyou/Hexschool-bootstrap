@@ -2,4 +2,10 @@
   @media(min-width:568px){
     @content
   }
-}
+};
+
+@mixin desktop {
+  @media(min-width:996px){
+    @content
+  }
+};

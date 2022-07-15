@@ -14700,8 +14700,32 @@ fieldset:disabled .btn {
   color: #3A3A3A;
 }
 
-.pet-avatar img {
+.pet-avatar .dog05 {
+  background-image: url(/images/dog05.png);
+}
+
+.pet-avatar .cat07 {
+  background-image: url(/images/cat07.png);
+}
+
+.pet-avatar .dog06 {
+  background-image: url(/images/dog06.png);
+}
+
+.pet-avatar .Michael {
+  background-image: url(/images/Michael.png);
+}
+
+.pet-avatar .avatar-container {
+  font-size: 0;
+}
+
+.pet-avatar .dog05, .pet-avatar .cat07, .pet-avatar .dog06, .pet-avatar .Michael {
+  font-size: 0;
   width: 312px;
   height: 312px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 /*# sourceMappingURL=all.css.map */

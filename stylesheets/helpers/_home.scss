@@ -62,8 +62,30 @@ img {
 }
 
 .pet-avatar{
-  img{
+  .dog05 {
+    background-image: url(/images/dog05.png);
+  }
+  .cat07{
+    background-image: url(/images/cat07.png);
+  }
+  .dog06{
+    background-image: url(/images/dog06.png);
+  }
+  .Michael{
+    background-image: url(/images/Michael.png);
+  }
+  .avatar-container{
+    // width: 800px;
+    font-size: 0;
+  }
+  .dog05, .cat07,.dog06,.Michael{
+    font-size: 0;
+    // outline: 1px solid black;
     width: 312px;
     height: 312px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
+
 }
