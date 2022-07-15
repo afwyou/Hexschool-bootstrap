@@ -14700,6 +14700,10 @@ fieldset:disabled .btn {
   color: #3A3A3A;
 }
 
+.pet-avatar {
+  font-size: 0;
+}
+
 .pet-avatar .dog05 {
   background-image: url(/images/dog05.png);
 }
