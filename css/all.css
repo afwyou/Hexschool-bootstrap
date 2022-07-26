@@ -14737,10 +14737,25 @@ fieldset:disabled .btn {
 
 .pet-avatar .dog05, .pet-avatar .cat07, .pet-avatar .dog06, .pet-avatar .Michael {
   font-size: 0;
-  width: 40%;
-  height: 40%;
+  width: 166px;
+  height: 166px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.item .bg-petdraw {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  .item .bg-petdraw {
+    display: block;
+  }
+}
+
+.item .chech-more {
+  font-size: 20px;
+  line-height: 27;
 }
 /*# sourceMappingURL=all.css.map */

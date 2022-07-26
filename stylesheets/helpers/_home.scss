@@ -84,11 +84,23 @@ img {
   }
   .dog05, .cat07,.dog06,.Michael{
     font-size: 0;
-    width: 40%;
-    height: 40%;
+    width: 166px;
+    height: 166px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
   }
 
+}
+.item{
+  .bg-petdraw{
+    display: none;
+    @include mobile {
+      display: block;
+    }
+  }
+  .chech-more {
+    font-size: 20px;
+    line-height: 27;
+  }
 }
