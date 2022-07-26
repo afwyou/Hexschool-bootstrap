@@ -14627,7 +14627,7 @@ fieldset:disabled .btn {
   height: 44px;
 }
 
-@media (min-width: 568px) {
+@media (min-width: 767px) {
   .contact {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -14652,7 +14652,7 @@ fieldset:disabled .btn {
   position: relative;
 }
 
-@media (min-width: 568px) {
+@media (min-width: 767px) {
   .banner {
     background-image: url(/images/home.png);
     height: 56vw;
@@ -14666,7 +14666,7 @@ fieldset:disabled .btn {
   display: none;
 }
 
-@media (min-width: 568px) {
+@media (min-width: 767px) {
   .banner .banner-title {
     display: block;
     font-weight: 900;
@@ -14687,9 +14687,16 @@ fieldset:disabled .btn {
   margin-left: 48px;
 }
 
-.service .img {
-  width: 648px;
-  height: 486px;
+.service img {
+  width: 348px;
+  height: 261px;
+}
+
+@media (min-width: 767px) {
+  .service img {
+    width: 648px;
+    height: 486px;
+  }
 }
 
 .service h4, .service .h4 {
@@ -14709,19 +14716,19 @@ fieldset:disabled .btn {
 }
 
 .pet-avatar .dog05 {
-  background-image: url(/images/dog05.png);
+  background-image: url(../images/dog05.png);
 }
 
 .pet-avatar .cat07 {
-  background-image: url(/images/cat07.png);
+  background-image: url(../images/cat07.png);
 }
 
 .pet-avatar .dog06 {
-  background-image: url(/images/dog06.png);
+  background-image: url(../../images/dog06@2x.png);
 }
 
 .pet-avatar .Michael {
-  background-image: url(/images/Michael.png);
+  background-image: url(../../images/Michael@2x.png);
 }
 
 .pet-avatar .avatar-container {
@@ -14730,8 +14737,8 @@ fieldset:disabled .btn {
 
 .pet-avatar .dog05, .pet-avatar .cat07, .pet-avatar .dog06, .pet-avatar .Michael {
   font-size: 0;
-  width: 312px;
-  height: 312px;
+  width: 40%;
+  height: 40%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

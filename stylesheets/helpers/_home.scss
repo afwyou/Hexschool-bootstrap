@@ -44,9 +44,13 @@ img {
   ul{
     margin-left: 48px;
   }
-  .img{
-    width: 648px;
-    height: 486px;
+  img{
+    width: 348px ;
+    height: 261px ;
+    @include mobile {
+      width: 648px;
+      height: 486px;
+    }
   }
   h4{
     font-family: 'Kalam', cursive;
@@ -64,24 +68,24 @@ img {
 .pet-avatar{
   font-size: 0;
   .dog05 {
-    background-image: url(/images/dog05.png);
+    background-image: url(../images/dog05.png);
   }
   .cat07{
-    background-image: url(/images/cat07.png);
+    background-image: url(../images/cat07.png);
   }
   .dog06{
-    background-image: url(/images/dog06.png);
+    background-image: url(../../images/dog06@2x.png);
   }
   .Michael{
-    background-image: url(/images/Michael.png);
+    background-image: url(../../images/Michael@2x.png);
   }
   .avatar-container{
     font-size: 0;
   }
   .dog05, .cat07,.dog06,.Michael{
     font-size: 0;
-    width: 312px;
-    height: 312px;
+    width: 40%;
+    height: 40%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
