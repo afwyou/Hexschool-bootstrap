@@ -14683,6 +14683,18 @@ fieldset:disabled .btn {
   }
 }
 
+.service {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 767px) {
+  .service {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+
 .service ul {
   margin-left: 48px;
 }
@@ -14737,11 +14749,22 @@ fieldset:disabled .btn {
 
 .pet-avatar .dog05, .pet-avatar .cat07, .pet-avatar .dog06, .pet-avatar .Michael {
   font-size: 0;
-  width: 166px;
+  width: 160px;
   height: 166px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+@media (min-width: 767px) {
+  .pet-avatar .dog05, .pet-avatar .cat07, .pet-avatar .dog06, .pet-avatar .Michael {
+    width: 312px;
+    height: 312px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
 }
 
 .item .bg-petdraw {
@@ -14757,5 +14780,61 @@ fieldset:disabled .btn {
 .item .chech-more {
   font-size: 20px;
   line-height: 27;
+}
+
+.adopt-area {
+  padding-bottom: 80px;
+}
+
+.adopt-area .adopt-illu {
+  width: 150px;
+  height: 80px;
+  background-image: url(../../images/title02@2x.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 767px) {
+  .adopt-area .adopt-illu {
+    width: 250px;
+    height: 133px;
+  }
+}
+
+.adopt-area .adopt_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.adopt-area .adopt_list_item {
+  -webkit-box-shadow: 0px 4px 8px #00000014;
+          box-shadow: 0px 4px 8px #00000014;
+  border-radius: 24px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.adopt-area .adopt_list_item .adopt-avatar {
+  width: 348px;
+  height: 424px;
+  background-position: center;
+  background-size: cover;
+}
+
+.adopt-area .adopt_list_item .hua {
+  background-image: url(../../images/dog01@2x.png);
+}
+
+.adopt-area .adopt_list_item .snow {
+  background-image: url(../../images/dog08@2x.png);
+}
+
+.adopt-area .adopt_list_item .blacky {
+  background-image: url(../../images/dog04@2x.png);
+}
+
+.adopt-area .adopt_list_item .btn {
+  font-family: Kalam;
 }
 /*# sourceMappingURL=all.css.map */
