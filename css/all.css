@@ -14839,7 +14839,7 @@ body {
 
 @media (min-width: 767px) {
   .adopt-area .adopt_list_item .adopt-avatar {
-    width: 424px;
+    width: 100%;
   }
 }
 

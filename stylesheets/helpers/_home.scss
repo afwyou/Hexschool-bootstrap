@@ -159,7 +159,7 @@ img {
         background-position: center;
         background-size: cover;
         @include mobile{
-          width: 424px;
+          width: 100%;
         }
       }
       .hua {
