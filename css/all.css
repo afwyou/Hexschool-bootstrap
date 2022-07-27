@@ -14815,11 +14815,23 @@ fieldset:disabled .btn {
   margin-left: 12px;
 }
 
+@media (min-width: 767px) {
+  .adopt-area .adopt_list_item {
+    width: 33.33333%;
+  }
+}
+
 .adopt-area .adopt_list_item .adopt-avatar {
   width: 348px;
   height: 424px;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-width: 767px) {
+  .adopt-area .adopt_list_item .adopt-avatar {
+    width: 424px;
+  }
 }
 
 .adopt-area .adopt_list_item .hua {
