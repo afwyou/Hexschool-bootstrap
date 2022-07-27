@@ -14805,6 +14805,9 @@ fieldset:disabled .btn {
 .adopt-area .adopt_list {
   list-style: none;
   padding-left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .adopt-area .adopt_list_item {
