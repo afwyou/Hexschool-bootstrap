@@ -1,0 +1,18 @@
+@import "./rwd";
+
+
+
+.header{
+  background-image: url(../../images/title01@2x.png);
+    width: 149px;
+    height: 80px;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  @include mobile{
+    background-image: url(../../images/title01.png);
+    width: 250px;
+    height: 134px;
+
+  }
+}

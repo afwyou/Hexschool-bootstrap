@@ -14858,4 +14858,21 @@ body {
 .adopt-area .adopt_list_item .btn {
   font-family: Kalam;
 }
+
+.header {
+  background-image: url(../../images/title01@2x.png);
+  width: 149px;
+  height: 80px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 767px) {
+  .header {
+    background-image: url(../../images/title01.png);
+    width: 250px;
+    height: 134px;
+  }
+}
 /*# sourceMappingURL=all.css.map */
