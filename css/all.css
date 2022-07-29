@@ -14606,6 +14606,10 @@ fieldset:disabled .btn {
   height: 40px;
 }
 
+.navbar-toggler-icon {
+  background-image: url(../../images/menu_FILL0_wght400_GRAD0_opsz48.png);
+}
+
 .pet-painting {
   width: 176px;
   height: 38px;
