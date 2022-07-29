@@ -14859,20 +14859,30 @@ body {
   font-family: Kalam;
 }
 
-.header {
+.header a {
+  display: block;
   background-image: url(../../images/title01@2x.png);
   width: 149px;
   height: 80px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 @media (min-width: 767px) {
-  .header {
+  .header a {
     background-image: url(../../images/title01.png);
     width: 250px;
     height: 134px;
   }
+}
+
+.recent-work-main {
+  font-family: 'Kalam',cursive;
+  font-style: italic;
+  font-weight: bold;
 }
 /*# sourceMappingURL=all.css.map */
