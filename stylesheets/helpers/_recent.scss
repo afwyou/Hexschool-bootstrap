@@ -22,6 +22,34 @@
 }
 
 .recent-work-main {
-  font-family: 'Kalam',cursive;
-  font-style: italic;
+  .work-menu{
+    &-title{
+      font-family: 'Kalam',cursive;
+      font-style: italic;
+    }
+  }
+  .recent-work-list{
+    &-item{
+      width: 166px;
+      height: 166px;
+      background-size: contain;
+     @include mobile {
+       width: 312px;
+      height: 312px;
+     }
+    }
+
+    .recent-work1{
+        background-image: url(../../images/dog05@2x.png);
+      }
+    .recent-work2{
+        background-image: url(../../images/cat07@2x.png);
+      }
+    .recent-work3{
+        background-image: url(../../images/dog06@2x.png);
+      }
+    .recent-work4{
+        background-image: url(../../images/Michael@2x.png);
+      }
+  }
 }
