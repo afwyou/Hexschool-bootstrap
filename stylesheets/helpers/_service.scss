@@ -1,0 +1,63 @@
+.service-banner{
+  background-repeat: no-repeat;
+  background-image: url(../../images/banner_service-sm.png);
+  height: 215px;
+  background-size: contain;
+  background-position: center;
+  @include mobile {
+    background-size: contain;
+    height: 280px;
+    background-image: url(../../images/banner@2x.png);
+  }
+  
+  
+}
+.step{
+  padding-bottom: 82px;
+  &-list{
+   &-pic{
+     height: 98px;
+     width: 100px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     @include mobile {
+       width: 203px;
+       height: 200px;
+     }
+   }
+   .pic1{
+     background-image: url(../../images/step01@2x.png);
+     @include mobile{
+     background-image: url(../../images/step01.png);
+
+     }
+   }
+   .pic2{
+     background-image: url(../../images/step02@2x.png);
+     @include mobile{
+     background-image: url(../../images/step02.png);
+
+     }
+   }
+   .pic3{
+     background-image: url(../../images/step03@2x.png);
+     @include mobile{
+     background-image: url(../../images/step03.png);
+
+     }
+   }
+   .pic4{
+     background-image: url(../../images/step04@2x.png);
+     @include mobile{
+     background-image: url(../../images/step04.png);
+
+     }
+   }
+   &-content{
+     .step1{
+       font-family: 'Kalam', cursive;
+
+     }
+   }
+  }
+}
