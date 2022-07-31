@@ -17,14 +17,14 @@
     background-image: url(../../images/title01.png);
     width: 250px;
     height: 134px;
-
   }
 }
 
 .recent-work-main {
+  font-family: 'Kalam',cursive;
+  
   .work-menu{
     &-title{
-      font-family: 'Kalam',cursive;
       font-style: italic;
     }
   }

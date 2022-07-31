@@ -11,8 +11,17 @@ app.use(express.static('public'))
 app.get('/', function (req, res) {
   res.render('index');
 })
-app.get('/user', function (req, res) {
-  res.render('user');
+app.get('/questionnaire', function (req, res) {
+  res.render('questionnaire');
+})
+app.get('/service', function (req, res) {
+  res.render('service');
+})
+app.get('/recent', function (req, res) {
+  res.render('recent');
+})
+app.get('/questionnaire', function (req, res) {
+  res.render('questionnaire');
 })
 
 // 監聽 port
