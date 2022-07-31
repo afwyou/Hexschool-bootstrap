@@ -1,10 +1,10 @@
-@mixin mobile {
+@mixin desktop {
   @media(min-width:767px){
     @content
   }
 };
 
-@mixin desktop {
+@mixin desktop-l {
   @media(min-width:1400px){
     @content
   }

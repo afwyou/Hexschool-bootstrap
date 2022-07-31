@@ -4,7 +4,7 @@
   height: 215px;
   background-size: contain;
   background-position: center;
-  @include mobile {
+  @include desktop {
     background-size: contain;
     height: 280px;
     background-image: url(../../images/banner@2x.png);
@@ -20,35 +20,35 @@
      width: 100px;
      background-size: cover;
      background-repeat: no-repeat;
-     @include mobile {
+     @include desktop {
        width: 203px;
        height: 200px;
      }
    }
    .pic1{
      background-image: url(../../images/step01@2x.png);
-     @include mobile{
+     @include desktop{
      background-image: url(../../images/step01.png);
 
      }
    }
    .pic2{
      background-image: url(../../images/step02@2x.png);
-     @include mobile{
+     @include desktop{
      background-image: url(../../images/step02.png);
 
      }
    }
    .pic3{
      background-image: url(../../images/step03@2x.png);
-     @include mobile{
+     @include desktop{
      background-image: url(../../images/step03.png);
 
      }
    }
    .pic4{
      background-image: url(../../images/step04@2x.png);
-     @include mobile{
+     @include desktop{
      background-image: url(../../images/step04.png);
 
      }

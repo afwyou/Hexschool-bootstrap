@@ -1,0 +1,113 @@
+<% layout('layout') %>
+
+
+<div class="container service-banner mb-8">
+ </div>
+
+<div class="container form-container">
+   <div class="form-area">
+    <h1 class="text-center mb-12">填寫訂購資訊</h1>
+
+    
+    <form>
+
+     <div class="row">
+      <div class="mb-3 col-md-6">
+        <label for="firstname" class="form-label">名字</label>
+        <input type="email" class="form-control" id="firstname" aria-describedby="">
+      </div>
+      <div class="mb-3 col-md-6">
+        <label for="secondname" class="form-label">姓氏</label>
+        <input type="text" class="form-control" id="secondname">
+      </div>
+     </div>
+    
+     <div class="mb-3 ">
+        <label for="phone" class="form-label">手機</label>
+        <input type="tel" class="form-control" id="phone">
+     </div>
+
+     <div class="mb-3">
+        <label for="email" class="form-label">電子信箱</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+
+    <div class="row address">
+      <p>收件地址</p>
+      <div class="col-md-6">
+        <label for="city">
+          <select class="form-select select-city" id="city" aria-label="Default select example">
+            <option selected>請選擇城市</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </label>
+      </div>
+      <div class="col-md-6">
+        <label for="area">
+          <select class="form-select select-area" id="area" aria-label="Default select example">
+            <option selected>請選擇區域</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </label>
+      </div>
+      <div class="col mt-2 mb-4">
+       <input class="form-control" type="text" name="address" id="" placeholder="請輸入詳細地址">
+      </div>
+    </div>
+
+    <div class="row mb-4">
+        <label for="designer">選擇設計師風格
+          <select class="form-select select-designer mt-2" id="designer">
+            <option selected>Meili</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </label>
+      </div>
+
+
+    <div class="row mb-4">
+        <label for="">付款方式
+          <select class="form-select select-designer mt-2" id="">
+            <option selected>貨到付款</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </label>
+      </div>
+    
+
+   <div class="add">
+   <p class="mb-2">加購服務</p>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1">送禮用包裝+100</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+      <label class="form-check-label" for="inlineCheckbox2">無框畫+250</label>
+    </div>
+   </div>
+
+   <div class="mb-3 mt-4">
+      <label for="explain" class="form-label">備註說明</label>
+     <textarea class="form-control" id="explain" rows="3"></textarea>
+    </div>
+
+    <div class="total text-center fw-bold mt-10">
+    總金額300元
+    </div>
+
+      <button type="submit" class="btn btn-petdraw submit px-12 py-2 rounded-pill d-block mx-auto mt-6">送出訂購資訊</button>
+
+      </form>
+    </div>
+    
+  </div>
+ 
