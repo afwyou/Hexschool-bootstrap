@@ -15243,9 +15243,16 @@ body {
   }
 }
 
-.recent-work-main .work-menu-title {
+.recent-work-main {
   font-family: 'Kalam',cursive;
+}
+
+.recent-work-main .work-menu-title {
   font-style: italic;
+}
+
+.recent-work-main .work-menu-list {
+  font-family: 'Kalam',cursive;
 }
 
 .recent-work-main .recent-work-list-item {
