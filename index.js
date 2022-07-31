@@ -20,8 +20,8 @@ app.get('/service', function (req, res) {
 app.get('/recent', function (req, res) {
   res.render('recent');
 })
-app.get('/questionnaire', function (req, res) {
-  res.render('questionnaire');
+app.get('/adopt', function (req, res) {
+  res.render('adopt');
 })
 
 // 監聽 port

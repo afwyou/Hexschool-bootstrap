@@ -15420,4 +15420,80 @@ body {
   font-size: 24px;
   line-height: 33px;
 }
+
+.adopt-container {
+  background-image: url(../../images/lightpaperfibers.png);
+  border-top: 2px solid #F9C745;
+}
+
+.adopt-banner {
+  width: 150px;
+  height: 80px;
+  overflow: hidden;
+  text-indent: 120%;
+  white-space: nowrap;
+  background-image: url(../../images/title02.png);
+  background-position: center;
+  background-size: contain;
+}
+
+@media (min-width: 767px) {
+  .adopt-banner {
+    width: 250px;
+    height: 133px;
+    background-image: url(../../images/title02@2x.png);
+  }
+}
+
+.adopt-banner h1, .adopt-banner .h1 {
+  text-align: center;
+}
+
+.adopt-area {
+  padding-bottom: 80px;
+}
+
+.adopt-area .adopt_list {
+  list-style: none;
+  padding-left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.adopt-area .adopt_list_item {
+  -webkit-box-shadow: 0px 4px 8px #00000014;
+          box-shadow: 0px 4px 8px #00000014;
+  border-radius: 24px;
+}
+
+.adopt-area .adopt_list_item .adopt-avatar {
+  width: 351px;
+  height: 424px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 767px) {
+  .adopt-area .adopt_list_item .adopt-avatar {
+    width: 100%;
+  }
+}
+
+.adopt-area .adopt_list_item .hua {
+  background-image: url(../../images/dog01@2x.png);
+}
+
+.adopt-area .adopt_list_item .snow {
+  background-image: url(../../images/dog08@2x.png);
+}
+
+.adopt-area .adopt_list_item .blacky {
+  background-image: url(../../images/dog04@2x.png);
+}
+
+.adopt-area .adopt_list_item .btn {
+  font-family: Kalam;
+}
 /*# sourceMappingURL=all.css.map */
