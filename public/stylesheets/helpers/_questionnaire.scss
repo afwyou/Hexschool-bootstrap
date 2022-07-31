@@ -1,5 +1,48 @@
+.form-container{
+  background-image: url(../../images/lightpaperfibers@2x.png);
+  border-bottom: 3px solid #F9C745;
+  padding-bottom: 80px;
+}
 .form-area {
-  width: 872px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-top: 44px;
+  padding-bottom: 49px;
+  border-top: 5px solid #F9C745;
+  box-shadow: 0px 4px 8px #0000001A;
+  border-radius: 12px;
+  color: #3A3A3A;
+  margin: 0 auto;
+  width: 352px;
+  padding-right: 16px; 
+  padding-left: 16px;
+  @include desktop {
+    width: 872px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+  }
+  
+}
+
+.address .form-select{
+   width: 320px;
+   margin-bottom: 8px;
+  @include desktop{
+    width: 392px;
+  }
+}
+.designer .select-designer{
+  width: 320px;
+  @include desktop {
+    width: 808px;
+  }
+}
+.total{
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.submit{
+  font-size: 24px;
+  line-height: 33px;
+
 }

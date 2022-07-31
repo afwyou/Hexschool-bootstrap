@@ -13,7 +13,7 @@
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
-  @include mobile{
+  @include desktop{
     background-image: url(../../images/title01.png);
     width: 250px;
     height: 134px;
@@ -37,7 +37,7 @@
       width: 166px;
       height: 166px;
       background-size: contain;
-     @include mobile {
+     @include desktop {
        width: 312px;
       height: 312px;
      }

@@ -27,7 +27,7 @@ background-image: url(../../images/menu_FILL0_wght400_GRAD0_opsz48.png);}
     width: 176px;
     height: 44px;
   }
-  @include mobile {
+  @include desktop {
     flex-wrap: nowrap;
   }
 }
