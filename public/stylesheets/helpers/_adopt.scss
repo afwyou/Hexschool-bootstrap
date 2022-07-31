@@ -28,19 +28,24 @@
 // 認養專區
 .adopt-main {
   padding-bottom: 80px;
-  .row {
-    gutter: 24px 24px !important;
-  }
-  
+   padding-left: 0;
+   padding-right: 0;
+
     .adopt_list_item{
-      // padding-right: 0;
-      // padding-left: 0;
+      padding-right: 0;
+      padding-left: 0;
       box-shadow: 0px 4px 8px #00000014;
-      border-radius: 24px;
+      margin-right: 12px;
+      margin-left: 12px;
+      width: 100%;
+      @include desktop{
+        width: 30.3333%;
+      }
       .adopt-avatar{
         width: 100%;
         height: 424px;
-        background-position: center;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;        background-position: center;
         background-size: cover;
         @include desktop{
           width: 100%;
