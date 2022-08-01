@@ -7,7 +7,7 @@
   width: 150px; 
   height: 80px;
   overflow: hidden;
-  text-indent: 120%;
+  text-indent: 180%;
   white-space: nowrap;
   background-image: url(../../images/title02.png);
   background-position: center;
@@ -28,10 +28,10 @@
 // 認養專區
 .adopt-main {
   padding-bottom: 80px;
-   padding-left: 0;
-   padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 
-    .adopt_list_item{
+   .adopt_list_item{
       padding-right: 0;
       padding-left: 0;
       box-shadow: 0px 4px 8px #00000014;
@@ -60,11 +60,20 @@
       .blacky {
         background-image: url(../../images/dog04@2x.png);
       }
+      .pet4 {
+        background-image: url(../../images/dog06@2x.png);
+      }
+      .pet5 {
+        background-image: url(../../images/cat07@2x.png);
+      }
+      .pet6 {
+        background-image: url(../../images/dog05@2x.png);
+      }
       .btn {
         font-family: Kalam;
       }
     }
-    
+  
 
 
 }

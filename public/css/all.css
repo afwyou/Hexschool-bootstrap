@@ -15430,7 +15430,7 @@ body {
   width: 150px;
   height: 80px;
   overflow: hidden;
-  text-indent: 120%;
+  text-indent: 180%;
   white-space: nowrap;
   background-image: url(../../images/title02.png);
   background-position: center;
@@ -15498,6 +15498,18 @@ body {
 
 .adopt-main .adopt_list_item .blacky {
   background-image: url(../../images/dog04@2x.png);
+}
+
+.adopt-main .adopt_list_item .pet4 {
+  background-image: url(../../images/dog06@2x.png);
+}
+
+.adopt-main .adopt_list_item .pet5 {
+  background-image: url(../../images/cat07@2x.png);
+}
+
+.adopt-main .adopt_list_item .pet6 {
+  background-image: url(../../images/dog05@2x.png);
 }
 
 .adopt-main .adopt_list_item .btn {
