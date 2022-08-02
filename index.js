@@ -23,6 +23,9 @@ app.get('/recent', function (req, res) {
 app.get('/adopt', function (req, res) {
   res.render('adopt');
 })
+app.get('/snow', function (req, res) {
+  res.render('snow');
+})
 
 // 監聽 port
 var port = process.env.PORT || 3000;
