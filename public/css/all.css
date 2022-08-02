@@ -15421,12 +15421,12 @@ body {
   line-height: 33px;
 }
 
-.adopt-container {
+.snow-container {
   background-image: url(../../images/lightpaperfibers.png);
   border-top: 2px solid #F9C745;
 }
 
-.adopt-banner {
+.snow-banner {
   width: 150px;
   height: 80px;
   overflow: hidden;
@@ -15439,7 +15439,7 @@ body {
 }
 
 @media (min-width: 767px) {
-  .adopt-banner {
+  .snow-banner {
     width: 250px;
     height: 133px;
     background-image: url(../../images/title02@2x.png);
@@ -15447,8 +15447,53 @@ body {
   }
 }
 
-.adopt-banner h1, .adopt-banner .h1 {
+.snow-banner h1, .snow-banner .h1 {
   text-align: center;
+}
+
+.snow-main {
+  padding-bottom: 80px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.snow-main .snow_list_item {
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-box-shadow: 0px 4px 8px #00000014;
+          box-shadow: 0px 4px 8px #00000014;
+  margin-right: 12px;
+  margin-left: 12px;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .snow-main .snow_list_item {
+    width: 30.3333%;
+  }
+}
+
+.snow-main .snow_list_item .snow-avatar {
+  width: 100%;
+  height: 424px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 767px) {
+  .snow-main .snow_list_item .snow-avatar {
+    width: 100%;
+  }
+}
+
+.snow-main .snow_list_item .snow {
+  background-image: url(../../images/dog08@2x.png);
+}
+
+.snow-main .snow_list_item .btn {
+  font-family: Kalam;
 }
 
 .adopt-main {

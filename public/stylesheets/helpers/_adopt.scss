@@ -1,9 +1,9 @@
 
-.adopt-container{
+.snow-container{
   background-image: url(../../images/lightpaperfibers.png);
   border-top: 2px solid #F9C745;
 }
-.adopt-banner{
+.snow-banner{
   width: 150px; 
   height: 80px;
   overflow: hidden;
@@ -26,12 +26,12 @@
 
 
 // 認養專區
-.adopt-main {
+.snow-main {
   padding-bottom: 80px;
   padding-left: 0;
   padding-right: 0;
 
-   .adopt_list_item{
+   .snow_list_item{
       padding-right: 0;
       padding-left: 0;
       box-shadow: 0px 4px 8px #00000014;
@@ -41,7 +41,7 @@
       @include desktop{
         width: 30.3333%;
       }
-      .adopt-avatar{
+      .snow-avatar{
         width: 100%;
         height: 424px;
         border-top-left-radius: 24px;
@@ -51,24 +51,11 @@
           width: 100%;
         }
       }
-      .hua {
-        background-image: url(../../images/dog01@2x.png);
-      }
       .snow {
         background-image: url(../../images/dog08@2x.png);
       }
-      .blacky {
-        background-image: url(../../images/dog04@2x.png);
-      }
-      .pet4 {
-        background-image: url(../../images/dog06@2x.png);
-      }
-      .pet5 {
-        background-image: url(../../images/cat07@2x.png);
-      }
-      .pet6 {
-        background-image: url(../../images/dog05@2x.png);
-      }
+      
+      
       .btn {
         font-family: Kalam;
       }
