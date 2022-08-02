@@ -15503,6 +15503,10 @@ body {
   background-size: cover;
 }
 
+.snow-main .snow_list_item .snow {
+  background-image: url(../../images/dog08@2x.png);
+}
+
 .snow-main .snow_list_item span {
   font-size: 16px;
   line-height: 22px;
@@ -15534,6 +15538,7 @@ body {
 }
 
 .left-column {
+  background: white;
   padding: 32px;
   -webkit-box-shadow: 0px 4px 8px #0000001A;
           box-shadow: 0px 4px 8px #0000001A;
