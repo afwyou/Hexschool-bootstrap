@@ -1,53 +1,84 @@
 
 // 認養專區
-.adopt-main {
-  padding-bottom: 80px;
-  padding-left: 0;
-  padding-right: 0;
+.snow-main {
 
-   .adopt_list_item{
-      padding-right: 0;
-      padding-left: 0;
+  padding-bottom: 80px;
+
+   .snow_list_item{
       box-shadow: 0px 4px 8px #00000014;
-      margin-right: 12px;
-      margin-left: 12px;
-      width: 100%;
-      @include desktop{
-        width: 30.3333%;
-      }
-      .adopt-avatar{
+      padding-bottom: 32px;
+      .snow-avatar{
         width: 100%;
         height: 424px;
         border-top-left-radius: 24px;
         border-top-right-radius: 24px;        background-position: center;
         background-size: cover;
-        @include desktop{
-          width: 100%;
-        }
       }
-      .hua {
-        background-image: url(../../images/dog01@2x.png);
-      }
-      .snow {
-        background-image: url(../../images/dog08@2x.png);
-      }
-      .blacky {
-        background-image: url(../../images/dog04@2x.png);
-      }
-      .pet4 {
-        background-image: url(../../images/dog06@2x.png);
-      }
-      .pet5 {
-        background-image: url(../../images/cat07@2x.png);
-      }
-      .pet6 {
-        background-image: url(../../images/dog05@2x.png);
+      
+      
+      span{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: bold;
+        margin-top: 9px;
+        display: inline-block;
       }
       .btn {
-        font-family: Kalam;
+        width: 100%;
       }
     }
   
+ 
+
+}
+
+ .snow_profile-pic {
+  
+    background-image: url(../../images/dog03.png);
+    width: 100%;
+    height: 213px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    @include desktop {
+      background-image: url(../../images/dog03@2x.png);
+      height: 539px;
+      background-size: contain;
+    }
+}
 
 
+.left-column{
+  padding: 32px;
+  box-shadow: 0px 4px 8px #0000001A;
+  border-radius: 12px;
+  .snow_profile-title{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  .snow_profile-data{
+    margin-bottom: 24px;
+    @include desktop{
+      margin-bottom: 50px;
+    }
+    font-size: 16px;  
+    line-height: 32px;
+    .left-data{
+      margin-right: 70px;
+      @include desktop{
+        margin-right: 208px;
+      }
+    }
+  }
+  .snow_profile-content{
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 32px;
+    @include desktop {
+      margin-bottom: 42px;
+    }
+  }
 }

@@ -1,7 +1,7 @@
 <% layout('layout') %>
 
-<div class="container adopt-container pt-10">
-  <div class="container adopt-banner d-flex justify-content-center">
+<div class="container snow-container pt-10">
+  <div class="container snow-banner d-flex justify-content-center">
     <h1>領養專區</h1>
   </div>
 </div>
@@ -11,18 +11,41 @@
 
 
   <!-- 領養專區 -->
-  <ul class="container snow-main d-flex flex-wrap justify-content-center">
-     li.
+  <div class="container snow-main  list-unstyled ">
 
-       <%/* 3 */%>
-      <li class=" snow_list_item d-flex flex-column align-items-center mb-4 rounded-md-3">
-        <div class="snow-avatar mb-7 snow"></div>
-        <div class="snow-name mb-16 fw-bold mx-4 mb-4 align-self-start">等家中-Snow</div>
-        <p class="fs-6 pb-4 border-bottom border-secondary mx-4 align-self-start">
-          看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
+    <ul class="row g-9 ps-0">
+    <%/* 左半欄 */%>
+      <li class="col-md-8 left-column">
+        <ul class="list-unstyled">
+        <li class="snow_profile snow_profile-title">
+          <h2>等家中-Snow</h2>
+        </li>
 
-        <div class="btn  fs-4">more</div>
+        <li class="d-flex snow-profile snow_profile-data">
+          <div class="left-data">品種｜哈士奇<br>性別｜公<br>體型｜大型</div>
+          <div class="right-data">年紀｜2個月<br>結紮｜已結紮<br>狂犬病疫苗｜已施打</div>
+        </li>
+        <li class="snow_profile snow_profile-content">
+          看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出很像貓的叫聲，相當有活力，不適合關籠會發出像獅子的叫聲。 如果照片看起來像你家人，歡迎帶回家一家團圓！
+        </li>
+        <li class="snow_profile snow_profile-pic"></li>
+        </ul>
       </li>
 
+    <%/* 右半欄 */%>
+      <li class="col-md-4">
+        <div class=" snow_list_item d-flex flex-column mb-4 rounded-md-3">
+            <div class="snow-avatar mb-7 snow"></div>
+            <ul class="list-unstyled px-6">
+              <li class="mb-4">收容所<br><span>高雄浪流連途之家</span></li>
+              <li class="mb-4">電話<br><span>07-123999</span></li>
+              <li class="mb-7">地址<br><span>高雄市三民區河中三路123號</span></li>
+              <li class="btn  fs-4 ">前往中途之家</li>
+            </ul>
+          </div>
 
-  </ul>
+      </li>
+    </ul>
+
+
+  </div>
